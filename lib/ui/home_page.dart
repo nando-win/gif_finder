@@ -18,9 +18,6 @@ class _HomePageState extends State<HomePage> {
   String trendingsUrl =
       'https://api.giphy.com/v1/gifs/trending?api_key=WTiUHKO5XWmka034QGQslXW4cDPEuGJz&limit=25&rating=g';
 
-  String searchUrl =
-      'https://api.giphy.com/v1/gifs/search?api_key=WTiUHKO5XWmka034QGQslXW4cDPEuGJz&q=golden&limit=25&offset=0&rating=g&lang=en';
-
   Future<Map> _getGifs() async {
     http.Response response;
 
